@@ -4,7 +4,9 @@ from collections import deque
 import matplotlib.pyplot as plt
 import librosa.display
 import time
-
+import matplotlib
+matplotlib.use('Agg') # This prevents the 'Main Thread' error by disabling the GUI
+import matplotlib.pyplot as plt
 # Import the math logic you just wrote
 from spectro_processor import create_spectrogram_matrix
 
