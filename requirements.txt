@@ -5,3 +5,4 @@ matplotlib
 tensorflow 
 tensorflow-hub
 resampy
+fastapi[all]
